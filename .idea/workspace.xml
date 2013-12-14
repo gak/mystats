@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ad0b699-0250-46ca-ace9-e6d57db5cd57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keyboard_power.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/keyboard_power" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stats.py" afterPath="$PROJECT_DIR$/stats.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4ad0b699-0250-46ca-ace9-e6d57db5cd57" name="Default" comment="" />
     <ignored path="statsd.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,15 +41,6 @@
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -404,16 +389,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run">
+    <entry file="file://$PROJECT_DIR$/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+        <state line="4" column="16" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
+    <entry file="file://$PROJECT_DIR$/run">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+        <state line="6" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.07643312" vertical-offset="0" max-vertical-offset="1413">
           <folding />
         </state>
       </provider>
