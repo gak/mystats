@@ -13,6 +13,12 @@ class Stats():
         self.stats = pystatsd.Client(self.config['host'])
         self.stats.prefix = self.config['prefix']
 
+    def run(self):
+        for module in self.config['modules']:
+            print(module)
+            m = __import__(module)
+            m.main()
+
     def gauge(self, name, value):
         self.stats.gauge(name, value)
 
