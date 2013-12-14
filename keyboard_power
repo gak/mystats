@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+
+import subprocess
+
+from stats import Stats
+
+output = subprocess.check_output('upower -d', shell=True)
+
+found = False
+
+for line in output:
+    if found and 'percentage:' in line:
+        Stats().gauge('keyboard.power')
+
+
+
+    if 'K950' in line:
+        found = True
+
+
+
