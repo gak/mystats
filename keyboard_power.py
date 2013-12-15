@@ -2,10 +2,8 @@
 import re
 import subprocess
 
-from stats import Stats
 
-
-def main():
+def main(stats):
     global output, found, line, match, amount
     output = subprocess.check_output('upower -d', shell=True)
     found = False
@@ -13,7 +11,7 @@ def main():
         if found and 'percentage:' in line:
             match = re.search(r'(\d+)%', line)
             amount = float(match.groups()[0])
-            Stats().gauge('keyboard.power', amount)
+            stats.gauge('keyboard.power', amount)
             break
 
         if 'K750' in line:

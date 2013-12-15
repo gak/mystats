@@ -1,3 +1,6 @@
 pyyaml
 pystatsd
 ipython
+requests
+
+git+https://github.com/walac/pyusb.git#egg=pyusb
