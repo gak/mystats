@@ -3,4 +3,6 @@ pystatsd
 ipython
 requests
 
-git+https://github.com/walac/pyusb.git#egg=pyusb
+#git+https://github.com/walac/pyusb.git#egg=pyusb
+http://downloads.sourceforge.net/project/pyusb/PyUSB%200.x/0.4.3/pyusb-0.4.3.tar.gz
+
