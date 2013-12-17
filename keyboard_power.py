@@ -11,7 +11,8 @@ def main(stats):
         if found and 'percentage:' in line:
             match = re.search(r'(\d+)%', line)
             amount = float(match.groups()[0])
-            stats.gauge('keyboard.power', amount)
+            if amount > 0:
+                stats.gauge('keyboard.power', amount)
             break
 
         if 'K750' in line:
